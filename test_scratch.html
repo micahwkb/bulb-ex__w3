@@ -1,0 +1,41 @@
+
+<script>
+function toggle() {
+    var img;
+    if (document.getElementById("myImage").src = "pic_bulbon.gif") {
+        img = "pic_bulboff.gif";
+    } else if (document.getElementById("myImage").src = "pic_bulboff.gif") {
+        img = "pic_bulbon.gif";
+    }
+    return document.getElementById("myImage").src = img;
+}
+</script>
+
+
+var lightIsOn = false
+
+function toggleLight() {
+  // set to the opposite of current status
+  lightIsOn = !lightIsOn
+}
+
+toggleLight()
+
+
+<script>
+var lightOn;
+
+if (document.getElementById("myImage").src = "pic_bulbon.gif") {
+    lightOn == true;
+  } else {
+    lightOn == false;
+}
+
+function toggle() {
+  if (lightOn == true) {
+    return document.getElementById("myImage").src = "pic_bulboff.gif";
+  } else {
+    return document.getElementById("myImage").src = "pic_bulbon.gif";
+  }
+}
+</script>
